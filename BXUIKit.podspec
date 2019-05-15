@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'BXUIKit'
-    s.version          = '0.0.1'
+    s.version          = '0.0.2'
     s.summary          = 'A short description of BXUIKit.'
     
     # This description is used to generate tags and improve search results.
@@ -33,6 +33,10 @@ Pod::Spec.new do |s|
     
     s.subspec 'AddressPickerView' do |a|
         a.source_files = 'BXUIKit/Classes/AddressPickerView/**/*.{h,m}'
+        #a.resource = 'BXUIKit/Assets/city.json'
+        a.resource_bundles = {
+        'city' => 'BXUIKit/Assets/city.json'
+        }
     end
     
     s.subspec 'BXHUD' do |hud|
@@ -44,7 +48,6 @@ Pod::Spec.new do |s|
     
     s.subspec 'BXPlaceholderTextView' do |textView|
         textView.source_files = 'BXUIKit/Classes/BXPlaceholderTextView/**/*.{h,m}'
-        textView.resource = "Pod/Assets/city.json"
     end
     
 end

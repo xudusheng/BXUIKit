@@ -7,37 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		009D3E1EAC817066876C192F1B0C2519 /* BXUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B80CD9C609A18A97716D8E77895FC0E5 /* BXUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04A898B75AB427E11DBA89F8A8E15E91 /* BXHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 14325025AAD4DB70E95D212DB1E5EF0D /* BXHUD.m */; };
+		008A4D5C44E6C6F4E47E0F7DB3077E18 /* BXProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1543F6F68A5E435E9E373257AC64F2E4 /* BXProgressHUD.m */; };
+		1008CB9E41E1A1F5C25FB3685D7AB7D3 /* UIView+BXAddressPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = C09F92B740A9DF804EE07DCC130B814E /* UIView+BXAddressPicker.m */; };
+		13B5BACDD25DB317846B59140F3E169C /* BXPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1658E86ECB1FD5241DFEB545EE0925B5 /* BXPlaceholderTextView.m */; };
 		18F03BF98C50B94540FC60B9FFB6BACE /* Pods-BXUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6637C83E98A743CC2833DB2A22CA85CA /* Pods-BXUIKit_Tests-dummy.m */; };
-		1C38B6A39ADB20900D8852672BC014A5 /* BXMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F13B87DD4D52A714A735BB5155252EAB /* BXMenu.m */; };
-		2DF39BB7FBD23426DD42014B0D0D4C2D /* BXAddressPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ED2D807CD1D150CA9240770303615BA /* BXAddressPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30167B63529B3691417E2DF421DA56FE /* BXHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C13B79371599B4988B1DC1C8F07D107 /* BXHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2347C0F9F99C3592C70D81DAC033D220 /* UIButton+BXAddressPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE6747E9F481C089C9EC98928813964 /* UIButton+BXAddressPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25AC38C610B1449E72587E7B0550DCF3 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A7807C970049F29F85E1A6509D2E875 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34AABEE190220E6D4754726AA3D6E604 /* UIView+BXAddressPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FAC0861929CBC454F9EDA36174ED8F6 /* UIView+BXAddressPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D4C9E615E2AE151D17599040ED2F432 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = FCC94BE0C4C9CC62C6CEF978740703A5 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		400D7A9EAB19BDCA4A7D49EEE10D89C3 /* Pods-BXUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B520083D53F860AC2E8C26C9694777 /* Pods-BXUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42E4A44F73AEE4DDE0482703DDCD50A7 /* BXAddressPickerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = E577B1DFF52E34A79DA259927505B3F8 /* BXAddressPickerHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		464460E79A06EE1270938B099ADF0788 /* UIView+BXAddressPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C79E150BC57500E8F87AE8705D928D /* UIView+BXAddressPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		475C124831CD1B962B1EF58C0CF76BD5 /* UIButton+BXAddressPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 78EA63A8FC5239F5F405C55ED65BAD8C /* UIButton+BXAddressPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58584FDB1C39428B01DEEDE0BE872EBB /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 686008F69901B6084331741F360D511B /* SVRadialGradientLayer.m */; };
-		60BE9FF1D8210B282BB00E3567D13F82 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4423C9C3099B0186DAC5B51C84A32D0 /* SVProgressAnimatedView.m */; };
-		709994526732797E9EF109F4910D3879 /* BXUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7C1CF553B62EFF553700723C24C8AB /* BXUIKit-dummy.m */; };
-		757AFD44769AFAE5E4B1571F96CE4F06 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF487FE834CCD3A27811531A2F3801D /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		818CBBDE06C21E675F8A8EADEAEFFE67 /* BXAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF413EB358CDFBE71365AC3E49318505 /* BXAddressPickerView.m */; };
-		855C0D112E30151331FD9F2791D168E0 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 199FFB2656AF00475B20D1A5F1BA6B0E /* SVProgressHUD.m */; };
-		92F778D38AE127BA38CE2B91CB7DCEC2 /* BXMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A65E5C4C249B2AB16E3DD9270E97900 /* BXMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		987CE96601FBF1D25F35A3F0036BBF00 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EA2E17EDEE5CFC8B9175423BF8EF616 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A21ED73A66E7B8610B9DCF5FA7225F0 /* BXPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B28453C4767C7B6D947511082B853EEC /* BXPlaceholderTextView.m */; };
+		423570ABBFE91E087D328908433B7FC1 /* BXProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = D1BD5170530C0A3092947303FE242252 /* BXProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4655888DE0B6631E021950738A4B0A2D /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5731B01B80CFDDA668B4B381A89FAD8F /* SVProgressAnimatedView.m */; };
+		49DDADCA5E9AC0EBD1350381A80400AD /* city.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B57B4C20A61809583F9F8C033A3D6D8B /* city.bundle */; };
+		5EF36FD7F5A8A2AFFC5E66641592C54C /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4106D167E6A87106F90B945396C5A94 /* SVRadialGradientLayer.m */; };
+		620EE5BD83B07223C3E277F01F24B7B5 /* BXUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A65EE2FF209520A6A56910FB032C2E55 /* BXUIKit-dummy.m */; };
+		632DF8CF32AEFA3B4A03C36FCDFEEF58 /* BXHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CBB613FA037041A50D152E2C9D25A9 /* BXHUD.m */; };
+		7EF0DA6F62F7745B387246058009CD86 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 437A464BD3C66788410919E039DBD3CC /* SVProgressHUD.m */; };
+		849660B18EEEBAB023218C0513AA9047 /* BXHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 01143D164822B95565623D733FF53CB3 /* BXHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8611F7E9CAC54448A8306A4FA1852561 /* BXMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CDF04A905C0C5E910F81EA53E7FDC9 /* BXMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B65C8FE824F94BCF0773E6F36A4DA50 /* BXUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC2EE966C9A6225FA77B6BCB7A5C2D88 /* BXUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D19B3D4FF2BDA4DD5E0CC2E7EF00F75 /* city.json in Resources */ = {isa = PBXBuildFile; fileRef = 42DB82D3FA33EA49945BAFA751E22068 /* city.json */; };
+		905528E84D0650DA86B040060E954C5E /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4846700D7B2EAD0C2C7852310839139F /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		907306E9A0C86E2B63084E015CE90A97 /* BXAddressPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9764A022D8209569BDFF7F0CB86054F5 /* BXAddressPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A29B2F628110CE8B7D2B1D10A877681 /* BXAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9341BF41818F8BAC138945E87970E1 /* BXAddressPickerView.m */; };
 		9C53C5BFA74AD7D46F03374AA8B6EB17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A1F898BEB2F60F5B6F7FECF4194DD22F /* BXPlaceholderTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5291F81390D5808E7F754F91FD716BEC /* BXPlaceholderTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A401651049DBFD90AD2D0600612B82F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		A66684338DFAF9A80322AFEBD7F6ABE8 /* BXPlaceholderTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 150914C499E666E5E882FD058C07ED9B /* BXPlaceholderTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6A2C22E97B676FC37B04C4F0E40B1DD /* BXProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 09A425C19315DD3A02178698018DFE86 /* BXProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2C28DC7DBB76FC014269DB18CAAD3E7 /* UIView+BXAddressPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D2DCE6C951DCBFA2CE57429CD9089 /* UIView+BXAddressPicker.m */; };
-		B98A85931ADCEB281A593DEC36C823A2 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2322CB4B3AB5DB3DBB23A6393AC157 /* SVIndefiniteAnimatedView.m */; };
-		C472D60B4754B8B40ABC9B0D1F80D716 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1472AD4DBF2649C18260AC190666C6A5 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF61EC37D2165C70E0D2087F0E91C373 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 265B543FAA474F6C175F3FD20D04F670 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1855BD00C9976AB12E382408D31C1FF /* BXProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C835A10D23B91D38CEFF87D84AAB5AC /* BXProgressHUD.m */; };
-		ECE5A30395FA0E5F87F756C9C81D51C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		AA22D1BCF6688F2A3004377DCD0166A0 /* BXAddressPickerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = F574F13C58FFABFF28D03FC929159101 /* BXAddressPickerHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0EA54D82395DE1AFAF74B239B16F22F /* UIButton+BXAddressPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4114D924DE2A0693A0797F92C35A81 /* UIButton+BXAddressPicker.m */; };
+		B9E69370D2679503068DB713E638C009 /* BXMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE22BDB77BD5A2F536FCBCAB4282AA9 /* BXMenu.m */; };
+		E4CABE613AEB45B0466263E443CEB98D /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD033AFA52E35DAEAA0914EB652CCA6 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EEE95012BAB0F026ECFED418F9FF9AB1 /* Pods-BXUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90948310CFBF4EEFD5596397B0A0B667 /* Pods-BXUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3DF24D565A8008753717705EC639C69 /* UIButton+BXAddressPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 40326B616C19FCAA6EA084284D87A084 /* UIButton+BXAddressPicker.m */; };
+		F06B7C4E68DAF48F18A75766D24D2028 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		FF5DDFF3EEC71D295D0C2021A2B641C2 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DBD8F3C62263909F8CC922B0BFC551 /* SVIndefiniteAnimatedView.m */; };
 		FF794E00D8E8B35309DA41BFBADC50FF /* Pods-BXUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F108A04C3BEF6C76C315AE6CCE3241B /* Pods-BXUIKit_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -46,8 +48,15 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F07D613118F0A38ACA85FC404A10032F;
+			remoteGlobalIDString = 66E64B6E4D972071F8A58482E0950310;
 			remoteInfo = BXUIKit;
+		};
+		3C05A60467FE69067620735E9A31ACF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC6EF2981F44A94D5298D3F2B9599FDA;
+			remoteInfo = "BXUIKit-city";
 		};
 		7C312882FDC7E3A036008EA580CD53FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -59,63 +68,74 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09A425C19315DD3A02178698018DFE86 /* BXProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BXProgressHUD.h; path = BXUIKit/Classes/BXHUD/BXProgressHUD.h; sourceTree = "<group>"; };
-		0EA8221BD59AA24CFFD3FBBF3EB55D63 /* Pods_BXUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BXUIKit_Example.framework; path = "Pods-BXUIKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		14325025AAD4DB70E95D212DB1E5EF0D /* BXHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BXHUD.m; path = BXUIKit/Classes/BXHUD/BXHUD.m; sourceTree = "<group>"; };
-		1472AD4DBF2649C18260AC190666C6A5 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = BXUIKit/Classes/BXHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		150914C499E666E5E882FD058C07ED9B /* BXPlaceholderTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BXPlaceholderTextView.h; path = BXUIKit/Classes/BXPlaceholderTextView/BXPlaceholderTextView.h; sourceTree = "<group>"; };
+		00E6346E0886960776F3B4DBC71A0B85 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		01143D164822B95565623D733FF53CB3 /* BXHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BXHUD.h; path = BXUIKit/Classes/BXHUD/BXHUD.h; sourceTree = "<group>"; };
+		068C68E0B2A6872E1844830605BE6E76 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		06F36CC213C088843FF224D5FE931FE7 /* BXUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BXUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0C9341BF41818F8BAC138945E87970E1 /* BXAddressPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BXAddressPickerView.m; path = BXUIKit/Classes/AddressPickerView/BXAddressPickerView.m; sourceTree = "<group>"; };
+		1543F6F68A5E435E9E373257AC64F2E4 /* BXProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BXProgressHUD.m; path = BXUIKit/Classes/BXHUD/BXProgressHUD.m; sourceTree = "<group>"; };
+		1658E86ECB1FD5241DFEB545EE0925B5 /* BXPlaceholderTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BXPlaceholderTextView.m; path = BXUIKit/Classes/BXPlaceholderTextView/BXPlaceholderTextView.m; sourceTree = "<group>"; };
 		16DD61E2D868DAB7D0E9633EF643C961 /* Pods-BXUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BXUIKit_Example.modulemap"; sourceTree = "<group>"; };
-		199FFB2656AF00475B20D1A5F1BA6B0E /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = BXUIKit/Classes/BXHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		1ED2D807CD1D150CA9240770303615BA /* BXAddressPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BXAddressPickerView.h; path = BXUIKit/Classes/AddressPickerView/BXAddressPickerView.h; sourceTree = "<group>"; };
-		265B543FAA474F6C175F3FD20D04F670 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = BXUIKit/Classes/BXHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
 		28AA439E374270BB41E3A5B84F9363E5 /* Pods-BXUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BXUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2938EEFAA30CB68C6D2B92A0B18A6EA8 /* Pods-BXUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BXUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		29CFB4EFD17AEF56A2B53E6F8FB935C9 /* Pods-BXUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BXUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		352FCA54B2CAE9BE9F013C348C09E395 /* Pods-BXUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BXUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3C13B79371599B4988B1DC1C8F07D107 /* BXHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BXHUD.h; path = BXUIKit/Classes/BXHUD/BXHUD.h; sourceTree = "<group>"; };
-		40326B616C19FCAA6EA084284D87A084 /* UIButton+BXAddressPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+BXAddressPicker.m"; path = "BXUIKit/Classes/AddressPickerView/UIButton+BXAddressPicker.m"; sourceTree = "<group>"; };
-		4F3D2DCE6C951DCBFA2CE57429CD9089 /* UIView+BXAddressPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+BXAddressPicker.m"; path = "BXUIKit/Classes/AddressPickerView/UIView+BXAddressPicker.m"; sourceTree = "<group>"; };
+		38882AFAD78E7817087905FAF16B0D46 /* BXUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BXUIKit.xcconfig; sourceTree = "<group>"; };
+		3FAC0861929CBC454F9EDA36174ED8F6 /* UIView+BXAddressPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+BXAddressPicker.h"; path = "BXUIKit/Classes/AddressPickerView/UIView+BXAddressPicker.h"; sourceTree = "<group>"; };
+		42DB82D3FA33EA49945BAFA751E22068 /* city.json */ = {isa = PBXFileReference; includeInIndex = 1; name = city.json; path = BXUIKit/Assets/city.json; sourceTree = "<group>"; };
+		437A464BD3C66788410919E039DBD3CC /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = BXUIKit/Classes/BXHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		4846700D7B2EAD0C2C7852310839139F /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = BXUIKit/Classes/BXHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		5291F81390D5808E7F754F91FD716BEC /* BXPlaceholderTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BXPlaceholderTextView.h; path = BXUIKit/Classes/BXPlaceholderTextView/BXPlaceholderTextView.h; sourceTree = "<group>"; };
 		52AC2FFFF8D982527884F0B39DAE3DE3 /* Pods-BXUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BXUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		558E3ECECD3659CC71CC2B28AF0398DA /* BXUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BXUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		58793D63F4BA41FE96C2C7380441FB2B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		587FDC3BF86944A867B641AB2DBDC8BB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		5EA2E17EDEE5CFC8B9175423BF8EF616 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = BXUIKit/Classes/BXHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		5731B01B80CFDDA668B4B381A89FAD8F /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = BXUIKit/Classes/BXHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		65CBB613FA037041A50D152E2C9D25A9 /* BXHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BXHUD.m; path = BXUIKit/Classes/BXHUD/BXHUD.m; sourceTree = "<group>"; };
 		6637C83E98A743CC2833DB2A22CA85CA /* Pods-BXUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BXUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		674A2BB3FD37AEA4FAD6E8EF1E6D9083 /* Pods-BXUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BXUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		686008F69901B6084331741F360D511B /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = BXUIKit/Classes/BXHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		6893A39D197E9B03FD9BA7040C063E2E /* Pods-BXUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BXUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A7807C970049F29F85E1A6509D2E875 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = BXUIKit/Classes/BXHUD/SVProgressHUD.h; sourceTree = "<group>"; };
 		70B520083D53F860AC2E8C26C9694777 /* Pods-BXUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BXUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		78D06C57801AA04C51D396C2FBFB098C /* BXUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BXUIKit.xcconfig; sourceTree = "<group>"; };
-		78EA63A8FC5239F5F405C55ED65BAD8C /* UIButton+BXAddressPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+BXAddressPicker.h"; path = "BXUIKit/Classes/AddressPickerView/UIButton+BXAddressPicker.h"; sourceTree = "<group>"; };
-		7C835A10D23B91D38CEFF87D84AAB5AC /* BXProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BXProgressHUD.m; path = BXUIKit/Classes/BXHUD/BXProgressHUD.m; sourceTree = "<group>"; };
-		7F3212DD5BB243CA86A556BA2C92A82C /* Pods_BXUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BXUIKit_Tests.framework; path = "Pods-BXUIKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A65E5C4C249B2AB16E3DD9270E97900 /* BXMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BXMenu.h; path = BXUIKit/Classes/BXMenu/BXMenu.h; sourceTree = "<group>"; };
 		8BDDE95C4934AA3BA5A3FC61A66CBCFF /* Pods-BXUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BXUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8EBF03ACF8276FA55F11596B27B05C8B /* Pods-BXUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BXUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		90948310CFBF4EEFD5596397B0A0B667 /* Pods-BXUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BXUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		90C79E150BC57500E8F87AE8705D928D /* UIView+BXAddressPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+BXAddressPicker.h"; path = "BXUIKit/Classes/AddressPickerView/UIView+BXAddressPicker.h"; sourceTree = "<group>"; };
 		9699B9F58CE0268C4D97D536A5F72DF1 /* Pods-BXUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BXUIKit_Tests.modulemap"; sourceTree = "<group>"; };
-		9AF487FE834CCD3A27811531A2F3801D /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = BXUIKit/Classes/BXHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		9AFB6D2757095A6C8B18F1E344EAC3C1 /* BXUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BXUIKit-Info.plist"; sourceTree = "<group>"; };
+		9764A022D8209569BDFF7F0CB86054F5 /* BXAddressPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BXAddressPickerView.h; path = BXUIKit/Classes/AddressPickerView/BXAddressPickerView.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F108A04C3BEF6C76C315AE6CCE3241B /* Pods-BXUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BXUIKit_Example-dummy.m"; sourceTree = "<group>"; };
-		A4423C9C3099B0186DAC5B51C84A32D0 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = BXUIKit/Classes/BXHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
-		ADD935BC383E03A34D711B35404FA24F /* BXUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BXUIKit.framework; path = BXUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65EE2FF209520A6A56910FB032C2E55 /* BXUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BXUIKit-dummy.m"; sourceTree = "<group>"; };
+		A6DBD8F3C62263909F8CC922B0BFC551 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = BXUIKit/Classes/BXHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		A992DC34473D5C7ABEE46310AF3984AA /* BXUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BXUIKit.framework; path = BXUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23C42ECFC12A3EA7C8763D975226F26 /* Pods-BXUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BXUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B28453C4767C7B6D947511082B853EEC /* BXPlaceholderTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BXPlaceholderTextView.m; path = BXUIKit/Classes/BXPlaceholderTextView/BXPlaceholderTextView.m; sourceTree = "<group>"; };
-		B80CD9C609A18A97716D8E77895FC0E5 /* BXUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BXUIKit-umbrella.h"; sourceTree = "<group>"; };
+		B4106D167E6A87106F90B945396C5A94 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = BXUIKit/Classes/BXHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		B57B4C20A61809583F9F8C033A3D6D8B /* city.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = city.bundle; path = "BXUIKit-city.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB80E946506F1CB2530DE5DE90993126 /* Pods-BXUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BXUIKit_Example-Info.plist"; sourceTree = "<group>"; };
-		BF8F942667A309022AD631C3A9B0B946 /* BXUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BXUIKit-prefix.pch"; sourceTree = "<group>"; };
+		BDE22BDB77BD5A2F536FCBCAB4282AA9 /* BXMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BXMenu.m; path = BXUIKit/Classes/BXMenu/BXMenu.m; sourceTree = "<group>"; };
+		BE574468086BA2C330C6C94256D3F2D4 /* BXUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BXUIKit.modulemap; sourceTree = "<group>"; };
+		BFE6747E9F481C089C9EC98928813964 /* UIButton+BXAddressPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+BXAddressPicker.h"; path = "BXUIKit/Classes/AddressPickerView/UIButton+BXAddressPicker.h"; sourceTree = "<group>"; };
+		C09F92B740A9DF804EE07DCC130B814E /* UIView+BXAddressPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+BXAddressPicker.m"; path = "BXUIKit/Classes/AddressPickerView/UIView+BXAddressPicker.m"; sourceTree = "<group>"; };
+		C45546B42B29B1BF097E5C3110B06623 /* Pods_BXUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BXUIKit_Example.framework; path = "Pods-BXUIKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C620444A2F9757C39D3013748F2C9377 /* BXUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BXUIKit-Info.plist"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E577B1DFF52E34A79DA259927505B3F8 /* BXAddressPickerHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BXAddressPickerHeader.h; path = BXUIKit/Classes/AddressPickerView/BXAddressPickerHeader.h; sourceTree = "<group>"; };
-		EB2322CB4B3AB5DB3DBB23A6393AC157 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = BXUIKit/Classes/BXHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		EF413EB358CDFBE71365AC3E49318505 /* BXAddressPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BXAddressPickerView.m; path = BXUIKit/Classes/AddressPickerView/BXAddressPickerView.m; sourceTree = "<group>"; };
-		EFFB4F9DE552F3EB42F4A86B81EA4095 /* BXUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BXUIKit.modulemap; sourceTree = "<group>"; };
-		F13B87DD4D52A714A735BB5155252EAB /* BXMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BXMenu.m; path = BXUIKit/Classes/BXMenu/BXMenu.m; sourceTree = "<group>"; };
-		FE7C1CF553B62EFF553700723C24C8AB /* BXUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BXUIKit-dummy.m"; sourceTree = "<group>"; };
+		CF4114D924DE2A0693A0797F92C35A81 /* UIButton+BXAddressPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+BXAddressPicker.m"; path = "BXUIKit/Classes/AddressPickerView/UIButton+BXAddressPicker.m"; sourceTree = "<group>"; };
+		D1BD5170530C0A3092947303FE242252 /* BXProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BXProgressHUD.h; path = BXUIKit/Classes/BXHUD/BXProgressHUD.h; sourceTree = "<group>"; };
+		D5C2310A1F810E9D778C09AA764ED3E6 /* BXUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BXUIKit-prefix.pch"; sourceTree = "<group>"; };
+		D9CDF04A905C0C5E910F81EA53E7FDC9 /* BXMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BXMenu.h; path = BXUIKit/Classes/BXMenu/BXMenu.h; sourceTree = "<group>"; };
+		DBD033AFA52E35DAEAA0914EB652CCA6 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = BXUIKit/Classes/BXHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		DC2EE966C9A6225FA77B6BCB7A5C2D88 /* BXUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BXUIKit-umbrella.h"; sourceTree = "<group>"; };
+		F1404E649E4CA77AE845BD4893DCB388 /* Pods_BXUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BXUIKit_Tests.framework; path = "Pods-BXUIKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C6F3F39939D879BE16A846CE066DB5 /* ResourceBundle-city-BXUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-city-BXUIKit-Info.plist"; sourceTree = "<group>"; };
+		F574F13C58FFABFF28D03FC929159101 /* BXAddressPickerHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BXAddressPickerHeader.h; path = BXUIKit/Classes/AddressPickerView/BXAddressPickerHeader.h; sourceTree = "<group>"; };
+		FCC94BE0C4C9CC62C6CEF978740703A5 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = BXUIKit/Classes/BXHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4543B91974A9D401798ACE314E62A446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06B7C4E68DAF48F18A75766D24D2028 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6AF40C27647CAF203CB2C3BA0F6CFE1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,11 +152,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3DE5D22E04EBA8BCBBE4389DB007524 /* Frameworks */ = {
+		8C98980761B8FF5B1D8DF94060D07DEA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECE5A30395FA0E5F87F756C9C81D51C9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,27 +179,19 @@
 			path = "Target Support Files/Pods-BXUIKit_Example";
 			sourceTree = "<group>";
 		};
-		1DB159CF710D334A098B741EBB16067B /* BXMenu */ = {
+		25BF7F9B04681455E3E30B0FD5C507E2 /* AddressPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				8A65E5C4C249B2AB16E3DD9270E97900 /* BXMenu.h */,
-				F13B87DD4D52A714A735BB5155252EAB /* BXMenu.m */,
+				F574F13C58FFABFF28D03FC929159101 /* BXAddressPickerHeader.h */,
+				9764A022D8209569BDFF7F0CB86054F5 /* BXAddressPickerView.h */,
+				0C9341BF41818F8BAC138945E87970E1 /* BXAddressPickerView.m */,
+				BFE6747E9F481C089C9EC98928813964 /* UIButton+BXAddressPicker.h */,
+				CF4114D924DE2A0693A0797F92C35A81 /* UIButton+BXAddressPicker.m */,
+				3FAC0861929CBC454F9EDA36174ED8F6 /* UIView+BXAddressPicker.h */,
+				C09F92B740A9DF804EE07DCC130B814E /* UIView+BXAddressPicker.m */,
+				72CDFBBA616CD4A5BF7FC46F73C849D5 /* Resources */,
 			);
-			name = BXMenu;
-			sourceTree = "<group>";
-		};
-		2EB5F9C980DCCC7129AD784B630E57E1 /* BXUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				AD994823FEE6F3B5C077B006FBADF618 /* AddressPickerView */,
-				ADA7FF3952E4FB0BC997EB68D013464E /* BXHUD */,
-				1DB159CF710D334A098B741EBB16067B /* BXMenu */,
-				9DD12A15DB3D2E38AC77F0F55AE50250 /* BXPlaceholderTextView */,
-				AB1503268910206AA4B4C13FEBE15CD0 /* Pod */,
-				FE34D18922EC3E46C821DBA50A37D9E4 /* Support Files */,
-			);
-			name = BXUIKit;
-			path = ../..;
+			name = AddressPickerView;
 			sourceTree = "<group>";
 		};
 		46146B902ABF8C6C5B03A60A9F88574D /* Targets Support Files */ = {
@@ -192,14 +203,40 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		658B5FAC638EEBFBD0F2AFE5BC7A614C /* Products */ = {
+		72CDFBBA616CD4A5BF7FC46F73C849D5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				ADD935BC383E03A34D711B35404FA24F /* BXUIKit.framework */,
-				0EA8221BD59AA24CFFD3FBBF3EB55D63 /* Pods_BXUIKit_Example.framework */,
-				7F3212DD5BB243CA86A556BA2C92A82C /* Pods_BXUIKit_Tests.framework */,
+				42DB82D3FA33EA49945BAFA751E22068 /* city.json */,
 			);
-			name = Products;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		75EE1DF3D7BB8DE97B56FFE36CF1D4EC /* BXPlaceholderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				5291F81390D5808E7F754F91FD716BEC /* BXPlaceholderTextView.h */,
+				1658E86ECB1FD5241DFEB545EE0925B5 /* BXPlaceholderTextView.m */,
+			);
+			name = BXPlaceholderTextView;
+			sourceTree = "<group>";
+		};
+		82C1A2738BDE9C844B8A59C6CCE72AEA /* BXHUD */ = {
+			isa = PBXGroup;
+			children = (
+				01143D164822B95565623D733FF53CB3 /* BXHUD.h */,
+				65CBB613FA037041A50D152E2C9D25A9 /* BXHUD.m */,
+				D1BD5170530C0A3092947303FE242252 /* BXProgressHUD.h */,
+				1543F6F68A5E435E9E373257AC64F2E4 /* BXProgressHUD.m */,
+				4846700D7B2EAD0C2C7852310839139F /* SVIndefiniteAnimatedView.h */,
+				A6DBD8F3C62263909F8CC922B0BFC551 /* SVIndefiniteAnimatedView.m */,
+				FCC94BE0C4C9CC62C6CEF978740703A5 /* SVProgressAnimatedView.h */,
+				5731B01B80CFDDA668B4B381A89FAD8F /* SVProgressAnimatedView.m */,
+				6A7807C970049F29F85E1A6509D2E875 /* SVProgressHUD.h */,
+				437A464BD3C66788410919E039DBD3CC /* SVProgressHUD.m */,
+				DBD033AFA52E35DAEAA0914EB652CCA6 /* SVRadialGradientLayer.h */,
+				B4106D167E6A87106F90B945396C5A94 /* SVRadialGradientLayer.m */,
+			);
+			name = BXHUD;
 			sourceTree = "<group>";
 		};
 		89567EC3E6C37D425EA13A5C68BE1BCD /* Pods-BXUIKit_Tests */ = {
@@ -221,9 +258,20 @@
 		9A38E704A8F6F9345B979F96EA6FDF70 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2EB5F9C980DCCC7129AD784B630E57E1 /* BXUIKit */,
+				B69C8F69FF1066D84D8F95C5EFBA485E /* BXUIKit */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9A9D661B37C9D759CBBCC8D27974B13A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A992DC34473D5C7ABEE46310AF3984AA /* BXUIKit.framework */,
+				B57B4C20A61809583F9F8C033A3D6D8B /* city.bundle */,
+				C45546B42B29B1BF097E5C3110B06623 /* Pods_BXUIKit_Example.framework */,
+				F1404E649E4CA77AE845BD4893DCB388 /* Pods_BXUIKit_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -234,56 +282,28 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9DD12A15DB3D2E38AC77F0F55AE50250 /* BXPlaceholderTextView */ = {
+		9CDB7B79A3AA9482087647BC2477F8E4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				150914C499E666E5E882FD058C07ED9B /* BXPlaceholderTextView.h */,
-				B28453C4767C7B6D947511082B853EEC /* BXPlaceholderTextView.m */,
-			);
-			name = BXPlaceholderTextView;
-			sourceTree = "<group>";
-		};
-		AB1503268910206AA4B4C13FEBE15CD0 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				558E3ECECD3659CC71CC2B28AF0398DA /* BXUIKit.podspec */,
-				58793D63F4BA41FE96C2C7380441FB2B /* LICENSE */,
-				587FDC3BF86944A867B641AB2DBDC8BB /* README.md */,
+				06F36CC213C088843FF224D5FE931FE7 /* BXUIKit.podspec */,
+				00E6346E0886960776F3B4DBC71A0B85 /* LICENSE */,
+				068C68E0B2A6872E1844830605BE6E76 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		AD994823FEE6F3B5C077B006FBADF618 /* AddressPickerView */ = {
+		B69C8F69FF1066D84D8F95C5EFBA485E /* BXUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				E577B1DFF52E34A79DA259927505B3F8 /* BXAddressPickerHeader.h */,
-				1ED2D807CD1D150CA9240770303615BA /* BXAddressPickerView.h */,
-				EF413EB358CDFBE71365AC3E49318505 /* BXAddressPickerView.m */,
-				78EA63A8FC5239F5F405C55ED65BAD8C /* UIButton+BXAddressPicker.h */,
-				40326B616C19FCAA6EA084284D87A084 /* UIButton+BXAddressPicker.m */,
-				90C79E150BC57500E8F87AE8705D928D /* UIView+BXAddressPicker.h */,
-				4F3D2DCE6C951DCBFA2CE57429CD9089 /* UIView+BXAddressPicker.m */,
+				25BF7F9B04681455E3E30B0FD5C507E2 /* AddressPickerView */,
+				82C1A2738BDE9C844B8A59C6CCE72AEA /* BXHUD */,
+				FBA56C5E82BBD018390CDA803FDE4634 /* BXMenu */,
+				75EE1DF3D7BB8DE97B56FFE36CF1D4EC /* BXPlaceholderTextView */,
+				9CDB7B79A3AA9482087647BC2477F8E4 /* Pod */,
+				F83F547580AF55B750B5FBB44BDE639C /* Support Files */,
 			);
-			name = AddressPickerView;
-			sourceTree = "<group>";
-		};
-		ADA7FF3952E4FB0BC997EB68D013464E /* BXHUD */ = {
-			isa = PBXGroup;
-			children = (
-				3C13B79371599B4988B1DC1C8F07D107 /* BXHUD.h */,
-				14325025AAD4DB70E95D212DB1E5EF0D /* BXHUD.m */,
-				09A425C19315DD3A02178698018DFE86 /* BXProgressHUD.h */,
-				7C835A10D23B91D38CEFF87D84AAB5AC /* BXProgressHUD.m */,
-				9AF487FE834CCD3A27811531A2F3801D /* SVIndefiniteAnimatedView.h */,
-				EB2322CB4B3AB5DB3DBB23A6393AC157 /* SVIndefiniteAnimatedView.m */,
-				265B543FAA474F6C175F3FD20D04F670 /* SVProgressAnimatedView.h */,
-				A4423C9C3099B0186DAC5B51C84A32D0 /* SVProgressAnimatedView.m */,
-				5EA2E17EDEE5CFC8B9175423BF8EF616 /* SVProgressHUD.h */,
-				199FFB2656AF00475B20D1A5F1BA6B0E /* SVProgressHUD.m */,
-				1472AD4DBF2649C18260AC190666C6A5 /* SVRadialGradientLayer.h */,
-				686008F69901B6084331741F360D511B /* SVRadialGradientLayer.m */,
-			);
-			name = BXHUD;
+			name = BXUIKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -292,7 +312,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				9A38E704A8F6F9345B979F96EA6FDF70 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				658B5FAC638EEBFBD0F2AFE5BC7A614C /* Products */,
+				9A9D661B37C9D759CBBCC8D27974B13A /* Products */,
 				46146B902ABF8C6C5B03A60A9F88574D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -305,18 +325,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FE34D18922EC3E46C821DBA50A37D9E4 /* Support Files */ = {
+		F83F547580AF55B750B5FBB44BDE639C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EFFB4F9DE552F3EB42F4A86B81EA4095 /* BXUIKit.modulemap */,
-				78D06C57801AA04C51D396C2FBFB098C /* BXUIKit.xcconfig */,
-				FE7C1CF553B62EFF553700723C24C8AB /* BXUIKit-dummy.m */,
-				9AFB6D2757095A6C8B18F1E344EAC3C1 /* BXUIKit-Info.plist */,
-				BF8F942667A309022AD631C3A9B0B946 /* BXUIKit-prefix.pch */,
-				B80CD9C609A18A97716D8E77895FC0E5 /* BXUIKit-umbrella.h */,
+				BE574468086BA2C330C6C94256D3F2D4 /* BXUIKit.modulemap */,
+				38882AFAD78E7817087905FAF16B0D46 /* BXUIKit.xcconfig */,
+				A65EE2FF209520A6A56910FB032C2E55 /* BXUIKit-dummy.m */,
+				C620444A2F9757C39D3013748F2C9377 /* BXUIKit-Info.plist */,
+				D5C2310A1F810E9D778C09AA764ED3E6 /* BXUIKit-prefix.pch */,
+				DC2EE966C9A6225FA77B6BCB7A5C2D88 /* BXUIKit-umbrella.h */,
+				F2C6F3F39939D879BE16A846CE066DB5 /* ResourceBundle-city-BXUIKit-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/BXUIKit";
+			sourceTree = "<group>";
+		};
+		FBA56C5E82BBD018390CDA803FDE4634 /* BXMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D9CDF04A905C0C5E910F81EA53E7FDC9 /* BXMenu.h */,
+				BDE22BDB77BD5A2F536FCBCAB4282AA9 /* BXMenu.m */,
+			);
+			name = BXMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,23 +360,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD054015536E3B0C57875D5866057FDE /* Headers */ = {
+		769AC26995F5B8DA326A7332FD31A1B5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42E4A44F73AEE4DDE0482703DDCD50A7 /* BXAddressPickerHeader.h in Headers */,
-				2DF39BB7FBD23426DD42014B0D0D4C2D /* BXAddressPickerView.h in Headers */,
-				30167B63529B3691417E2DF421DA56FE /* BXHUD.h in Headers */,
-				92F778D38AE127BA38CE2B91CB7DCEC2 /* BXMenu.h in Headers */,
-				A66684338DFAF9A80322AFEBD7F6ABE8 /* BXPlaceholderTextView.h in Headers */,
-				A6A2C22E97B676FC37B04C4F0E40B1DD /* BXProgressHUD.h in Headers */,
-				009D3E1EAC817066876C192F1B0C2519 /* BXUIKit-umbrella.h in Headers */,
-				757AFD44769AFAE5E4B1571F96CE4F06 /* SVIndefiniteAnimatedView.h in Headers */,
-				CF61EC37D2165C70E0D2087F0E91C373 /* SVProgressAnimatedView.h in Headers */,
-				987CE96601FBF1D25F35A3F0036BBF00 /* SVProgressHUD.h in Headers */,
-				C472D60B4754B8B40ABC9B0D1F80D716 /* SVRadialGradientLayer.h in Headers */,
-				475C124831CD1B962B1EF58C0CF76BD5 /* UIButton+BXAddressPicker.h in Headers */,
-				464460E79A06EE1270938B099ADF0788 /* UIView+BXAddressPicker.h in Headers */,
+				AA22D1BCF6688F2A3004377DCD0166A0 /* BXAddressPickerHeader.h in Headers */,
+				907306E9A0C86E2B63084E015CE90A97 /* BXAddressPickerView.h in Headers */,
+				849660B18EEEBAB023218C0513AA9047 /* BXHUD.h in Headers */,
+				8611F7E9CAC54448A8306A4FA1852561 /* BXMenu.h in Headers */,
+				A1F898BEB2F60F5B6F7FECF4194DD22F /* BXPlaceholderTextView.h in Headers */,
+				423570ABBFE91E087D328908433B7FC1 /* BXProgressHUD.h in Headers */,
+				8B65C8FE824F94BCF0773E6F36A4DA50 /* BXUIKit-umbrella.h in Headers */,
+				905528E84D0650DA86B040060E954C5E /* SVIndefiniteAnimatedView.h in Headers */,
+				3D4C9E615E2AE151D17599040ED2F432 /* SVProgressAnimatedView.h in Headers */,
+				25AC38C610B1449E72587E7B0550DCF3 /* SVProgressHUD.h in Headers */,
+				E4CABE613AEB45B0466263E443CEB98D /* SVRadialGradientLayer.h in Headers */,
+				2347C0F9F99C3592C70D81DAC033D220 /* UIButton+BXAddressPicker.h in Headers */,
+				34AABEE190220E6D4754726AA3D6E604 /* UIView+BXAddressPicker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +407,7 @@
 			);
 			name = "Pods-BXUIKit_Tests";
 			productName = "Pods-BXUIKit_Tests";
-			productReference = 7F3212DD5BB243CA86A556BA2C92A82C /* Pods_BXUIKit_Tests.framework */;
+			productReference = F1404E649E4CA77AE845BD4893DCB388 /* Pods_BXUIKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		59CA83C6E07F663B9E42825BD4C41AD6 /* Pods-BXUIKit_Example */ = {
@@ -396,26 +426,44 @@
 			);
 			name = "Pods-BXUIKit_Example";
 			productName = "Pods-BXUIKit_Example";
-			productReference = 0EA8221BD59AA24CFFD3FBBF3EB55D63 /* Pods_BXUIKit_Example.framework */;
+			productReference = C45546B42B29B1BF097E5C3110B06623 /* Pods_BXUIKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F07D613118F0A38ACA85FC404A10032F /* BXUIKit */ = {
+		66E64B6E4D972071F8A58482E0950310 /* BXUIKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCFD96C04BD00DBC910206DFD0012DE4 /* Build configuration list for PBXNativeTarget "BXUIKit" */;
+			buildConfigurationList = C5293D985B4F24DF74CE113B790343C1 /* Build configuration list for PBXNativeTarget "BXUIKit" */;
 			buildPhases = (
-				CD054015536E3B0C57875D5866057FDE /* Headers */,
-				28A55B5BC93F05881D9E4EA55397C5EA /* Sources */,
-				C3DE5D22E04EBA8BCBBE4389DB007524 /* Frameworks */,
-				535929123A6F845CF6C04ACE0C05942B /* Resources */,
+				769AC26995F5B8DA326A7332FD31A1B5 /* Headers */,
+				203411750A5D804A834A9F5E006B49C1 /* Sources */,
+				4543B91974A9D401798ACE314E62A446 /* Frameworks */,
+				2C23964101C679144EB86666ACD65DE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				807A8A92D9C75864935753F707E20AAF /* PBXTargetDependency */,
+			);
+			name = BXUIKit;
+			productName = BXUIKit;
+			productReference = A992DC34473D5C7ABEE46310AF3984AA /* BXUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC6EF2981F44A94D5298D3F2B9599FDA /* BXUIKit-city */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E50C260A50E7A34E77C52EC69D30B5B /* Build configuration list for PBXNativeTarget "BXUIKit-city" */;
+			buildPhases = (
+				AF2D8A1F068B47F0DBA35C060263A065 /* Sources */,
+				8C98980761B8FF5B1D8DF94060D07DEA /* Frameworks */,
+				E53E30300D0A91FB0BD6FE188D79E107 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BXUIKit;
-			productName = BXUIKit;
-			productReference = ADD935BC383E03A34D711B35404FA24F /* BXUIKit.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "BXUIKit-city";
+			productName = "BXUIKit-city";
+			productReference = B57B4C20A61809583F9F8C033A3D6D8B /* city.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -434,11 +482,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 658B5FAC638EEBFBD0F2AFE5BC7A614C /* Products */;
+			productRefGroup = 9A9D661B37C9D759CBBCC8D27974B13A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F07D613118F0A38ACA85FC404A10032F /* BXUIKit */,
+				66E64B6E4D972071F8A58482E0950310 /* BXUIKit */,
+				CC6EF2981F44A94D5298D3F2B9599FDA /* BXUIKit-city */,
 				59CA83C6E07F663B9E42825BD4C41AD6 /* Pods-BXUIKit_Example */,
 				2DDEDDB32B8F45CBB74797A2BFD54FFB /* Pods-BXUIKit_Tests */,
 			);
@@ -446,10 +495,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		535929123A6F845CF6C04ACE0C05942B /* Resources */ = {
+		2C23964101C679144EB86666ACD65DE2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49DDADCA5E9AC0EBD1350381A80400AD /* city.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,25 +517,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E53E30300D0A91FB0BD6FE188D79E107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D19B3D4FF2BDA4DD5E0CC2E7EF00F75 /* city.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		28A55B5BC93F05881D9E4EA55397C5EA /* Sources */ = {
+		203411750A5D804A834A9F5E006B49C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				818CBBDE06C21E675F8A8EADEAEFFE67 /* BXAddressPickerView.m in Sources */,
-				04A898B75AB427E11DBA89F8A8E15E91 /* BXHUD.m in Sources */,
-				1C38B6A39ADB20900D8852672BC014A5 /* BXMenu.m in Sources */,
-				9A21ED73A66E7B8610B9DCF5FA7225F0 /* BXPlaceholderTextView.m in Sources */,
-				E1855BD00C9976AB12E382408D31C1FF /* BXProgressHUD.m in Sources */,
-				709994526732797E9EF109F4910D3879 /* BXUIKit-dummy.m in Sources */,
-				B98A85931ADCEB281A593DEC36C823A2 /* SVIndefiniteAnimatedView.m in Sources */,
-				60BE9FF1D8210B282BB00E3567D13F82 /* SVProgressAnimatedView.m in Sources */,
-				855C0D112E30151331FD9F2791D168E0 /* SVProgressHUD.m in Sources */,
-				58584FDB1C39428B01DEEDE0BE872EBB /* SVRadialGradientLayer.m in Sources */,
-				F3DF24D565A8008753717705EC639C69 /* UIButton+BXAddressPicker.m in Sources */,
-				B2C28DC7DBB76FC014269DB18CAAD3E7 /* UIView+BXAddressPicker.m in Sources */,
+				9A29B2F628110CE8B7D2B1D10A877681 /* BXAddressPickerView.m in Sources */,
+				632DF8CF32AEFA3B4A03C36FCDFEEF58 /* BXHUD.m in Sources */,
+				B9E69370D2679503068DB713E638C009 /* BXMenu.m in Sources */,
+				13B5BACDD25DB317846B59140F3E169C /* BXPlaceholderTextView.m in Sources */,
+				008A4D5C44E6C6F4E47E0F7DB3077E18 /* BXProgressHUD.m in Sources */,
+				620EE5BD83B07223C3E277F01F24B7B5 /* BXUIKit-dummy.m in Sources */,
+				FF5DDFF3EEC71D295D0C2021A2B641C2 /* SVIndefiniteAnimatedView.m in Sources */,
+				4655888DE0B6631E021950738A4B0A2D /* SVProgressAnimatedView.m in Sources */,
+				7EF0DA6F62F7745B387246058009CD86 /* SVProgressHUD.m in Sources */,
+				5EF36FD7F5A8A2AFFC5E66641592C54C /* SVRadialGradientLayer.m in Sources */,
+				B0EA54D82395DE1AFAF74B239B16F22F /* UIButton+BXAddressPicker.m in Sources */,
+				1008CB9E41E1A1F5C25FB3685D7AB7D3 /* UIView+BXAddressPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,9 +563,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AF2D8A1F068B47F0DBA35C060263A065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		807A8A92D9C75864935753F707E20AAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BXUIKit-city";
+			target = CC6EF2981F44A94D5298D3F2B9599FDA /* BXUIKit-city */;
+			targetProxy = 3C05A60467FE69067620735E9A31ACF9 /* PBXContainerItemProxy */;
+		};
 		C9E93BDCDCA83BE1ED4C0448F208DF97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-BXUIKit_Example";
@@ -517,7 +588,7 @@
 		D905911577430E26EF76BA6E796154E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BXUIKit;
-			target = F07D613118F0A38ACA85FC404A10032F /* BXUIKit */;
+			target = 66E64B6E4D972071F8A58482E0950310 /* BXUIKit */;
 			targetProxy = 01B8E7D7395AFB9B74216D30E6FF743F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -583,9 +654,9 @@
 			};
 			name = Release;
 		};
-		1062DA83E2FF02BE14BB6EF1F06BBE09 /* Debug */ = {
+		29D43F7558E5098D0D77CFCC553BD4DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78D06C57801AA04C51D396C2FBFB098C /* BXUIKit.xcconfig */;
+			baseConfigurationReference = 38882AFAD78E7817087905FAF16B0D46 /* BXUIKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -744,36 +815,21 @@
 			};
 			name = Release;
 		};
-		B8E8C79BC84721A831334BAFE0E27D98 /* Release */ = {
+		BEF16C70ADABE1A9FFAAF0DCC61C31EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78D06C57801AA04C51D396C2FBFB098C /* BXUIKit.xcconfig */;
+			baseConfigurationReference = 38882AFAD78E7817087905FAF16B0D46 /* BXUIKit.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BXUIKit/BXUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BXUIKit/BXUIKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BXUIKit";
+				INFOPLIST_FILE = "Target Support Files/BXUIKit/ResourceBundle-city-BXUIKit-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BXUIKit/BXUIKit.modulemap";
-				PRODUCT_MODULE_NAME = BXUIKit;
-				PRODUCT_NAME = BXUIKit;
+				PRODUCT_NAME = city;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 		CCC79B376CEC0812F95D1351928DD2E5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -842,6 +898,53 @@
 			};
 			name = Debug;
 		};
+		EBE5D2171E99DDB53FFC7A9C30B54B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38882AFAD78E7817087905FAF16B0D46 /* BXUIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BXUIKit/BXUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BXUIKit/BXUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BXUIKit/BXUIKit.modulemap";
+				PRODUCT_MODULE_NAME = BXUIKit;
+				PRODUCT_NAME = BXUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED8071A7243002D24D652FBC8FFBF61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38882AFAD78E7817087905FAF16B0D46 /* BXUIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BXUIKit";
+				INFOPLIST_FILE = "Target Support Files/BXUIKit/ResourceBundle-city-BXUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = city;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -863,6 +966,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4E50C260A50E7A34E77C52EC69D30B5B /* Build configuration list for PBXNativeTarget "BXUIKit-city" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF16C70ADABE1A9FFAAF0DCC61C31EE /* Debug */,
+				ED8071A7243002D24D652FBC8FFBF61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6FBFF991AA6569E117A580B20BBC29AF /* Build configuration list for PBXNativeTarget "Pods-BXUIKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -872,11 +984,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CCFD96C04BD00DBC910206DFD0012DE4 /* Build configuration list for PBXNativeTarget "BXUIKit" */ = {
+		C5293D985B4F24DF74CE113B790343C1 /* Build configuration list for PBXNativeTarget "BXUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1062DA83E2FF02BE14BB6EF1F06BBE09 /* Debug */,
-				B8E8C79BC84721A831334BAFE0E27D98 /* Release */,
+				29D43F7558E5098D0D77CFCC553BD4DD /* Debug */,
+				EBE5D2171E99DDB53FFC7A9C30B54B03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

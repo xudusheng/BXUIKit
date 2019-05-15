@@ -21,7 +21,10 @@
   "subspecs": [
     {
       "name": "AddressPickerView",
-      "source_files": "BXUIKit/Classes/AddressPickerView/**/*.{h,m}"
+      "source_files": "BXUIKit/Classes/AddressPickerView/**/*.{h,m}",
+      "resource_bundles": {
+        "city": "BXUIKit/Assets/city.json"
+      }
     },
     {
       "name": "BXHUD",
@@ -33,8 +36,7 @@
     },
     {
       "name": "BXPlaceholderTextView",
-      "source_files": "BXUIKit/Classes/BXPlaceholderTextView/**/*.{h,m}",
-      "resources": "Pod/Assets/city.json"
+      "source_files": "BXUIKit/Classes/BXPlaceholderTextView/**/*.{h,m}"
     }
   ]
 }

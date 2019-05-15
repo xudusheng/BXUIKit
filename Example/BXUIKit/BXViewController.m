@@ -54,14 +54,21 @@
     
 #pragma mark - BXAddressPickerView
 - (IBAction)sekectedAddressButton:(id)sender {
-    BXProvinceModel *provinceModel = [[BXProvinceModel alloc] init];
-    provinceModel.name = @"福建省";
-    BXCityModel *cityModel = [[BXCityModel alloc] init];
-    cityModel.name = @"莆田市";
-    [BXAddressPickerView cityPickerViewWithProvince:provinceModel
-                                               city:cityModel
-                                          cityBlock:^(BXProvinceModel * _Nonnull province, BXCityModel * _Nonnull city) {
-                                              NSLog(@"%@, %@", province.name, city.name);
+//    BXProvinceModel *provinceModel = [[BXProvinceModel alloc] init];
+//    provinceModel.name = @"福建省";
+//    BXCityModel *cityModel = [[BXCityModel alloc] init];
+//    cityModel.name = @"莆田市";
+//    [BXAddressPickerView cityPickerViewWithProvince:provinceModel
+//                                               city:cityModel
+//                                          cityBlock:^(BXProvinceModel * _Nonnull province, BXCityModel * _Nonnull city) {
+//                                              NSLog(@"%@, %@", province.name, city.name);
+//                                          }];
+    [BXAddressPickerView areaPickerViewWithProvince:nil
+                                               city:nil
+                                               area:nil
+                                          areaBlock:^(BXProvinceModel * _Nonnull province, BXCityModel * _Nonnull city, BXAreaModel * _Nonnull area) {
+                                              NSString *address = [NSString stringWithFormat:@"%@, %@，%@", province.name, city.name, area.name];
+                                              self.addressTextField.text = address;
                                           }];
 }
 #pragma mark - BXPlaceholderTextView

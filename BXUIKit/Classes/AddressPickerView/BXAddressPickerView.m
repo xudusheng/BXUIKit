@@ -104,8 +104,50 @@ typedef NS_ENUM(NSInteger, BXAddressPickerViewType) {
 
 
 @implementation BXAddressPickerView
+    
+    /**
+     获取文件所在name，默认情况下podName和bundlename相同，传一个即可
+     
+     @param bundleName bundle名字，就是在resource_bundles里面的名字
+     @param podName pod的名字
+     @return bundle
+     */
++ (NSBundle *)bundleWithBundleName:(NSString *)bundleName podName:(NSString *)podName{
+    NSLog(@"%@ = %@", bundleName, podName);
+    if (bundleName == nil && podName == nil) {
+        @throw @"bundleName和podName不能同时为空";
+    }else if (bundleName == nil ) {
+        bundleName = podName;
+    }else if (podName == nil) {
+        podName = bundleName;
+    }
+    
+    
+    if ([bundleName containsString:@".bundle"]) {
+        bundleName = [bundleName componentsSeparatedByString:@".bundle"].firstObject;
+    }
+    //没使用framwork的情况下
+    NSURL *associateBundleURL = [[NSBundle mainBundle] URLForResource:bundleName withExtension:@"bundle"];
+    //使用framework形式
+    if (!associateBundleURL) {
+        associateBundleURL = [[NSBundle mainBundle] URLForResource:@"Frameworks" withExtension:nil];
+        associateBundleURL = [associateBundleURL URLByAppendingPathComponent:podName];
+        associateBundleURL = [associateBundleURL URLByAppendingPathExtension:@"framework"];
+        NSBundle *associateBunle = [NSBundle bundleWithURL:associateBundleURL];
+        associateBundleURL = [associateBunle URLForResource:bundleName withExtension:@"bundle"];
+    }
+    
+    NSAssert(associateBundleURL, @"取不到关联bundle");
+    //生产环境直接返回空
+    return associateBundleURL?[NSBundle bundleWithURL:associateBundleURL]:nil;
+}
+    
 + (NSArray<BXProvinceModel*>*)getAllProvince {
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"BXUIKitSource.bundle/city.json" ofType:nil];
+    
+    NSBundle *bundle = [self bundleWithBundleName:@"city" podName:@"BXUIKit"];
+    
+    NSString *path = [bundle pathForResource:@"city" ofType:@"json"];
+    
     NSData *jsonData = [NSData dataWithContentsOfFile:path];
     if (jsonData == nil) {
         return @[];
@@ -268,7 +310,6 @@ typedef NS_ENUM(NSInteger, BXAddressPickerViewType) {
     [self addSubview:containView];
     self.containView = containView;
     
-    
     UIView *toolBar = [[UIView alloc] init];
     toolBar.frame = CGRectMake(0, 0, BXDP_SCREEN_WIDTH, BXDP_SCALE_HEIGHT(40));
     toolBar.backgroundColor = BXDP_COLOR(0xf6f6f6);
@@ -290,7 +331,6 @@ typedef NS_ENUM(NSInteger, BXAddressPickerViewType) {
     pickerView.dataSource = self;
     [containView addSubview:pickerView];
     self.pickerView = pickerView;
-    
 }
 
 //获取数据
