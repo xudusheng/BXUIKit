@@ -57,7 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EA8221BD59AA24CFFD3FBBF3EB55D63 /* Pods_BXUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BXUIKit_Example.framework; path = "Pods-BXUIKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA8221BD59AA24CFFD3FBBF3EB55D63 /* Pods_BXUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16DD61E2D868DAB7D0E9633EF643C961 /* Pods-BXUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BXUIKit_Example.modulemap"; sourceTree = "<group>"; };
 		16F1176FC47A11C81CB54E84735EA812 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = BXUIKit/Classes/BXHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		1F91F1C9F8630E673859854A988A6041 /* BXAddressPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BXAddressPickerView.h; path = BXUIKit/Classes/AddressPickerView/BXAddressPickerView.h; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 		741271A831C42272063280F73E776B09 /* UIButton+BXAddressPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+BXAddressPicker.m"; path = "BXUIKit/Classes/AddressPickerView/UIButton+BXAddressPicker.m"; sourceTree = "<group>"; };
 		7B06450225A257D0DAA3D225126AB65F /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = BXUIKit/Classes/BXHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		7C4E2E118FC4F4781DBB767A7E69C11C /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = BXUIKit/Classes/BXHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
-		7F3212DD5BB243CA86A556BA2C92A82C /* Pods_BXUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BXUIKit_Tests.framework; path = "Pods-BXUIKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3212DD5BB243CA86A556BA2C92A82C /* Pods_BXUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84833B8D37DD843E16761623DEF2FA75 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = BXUIKit/Classes/BXHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		84B5E240F8A416E51CA9F9FBBA060FEA /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = BXUIKit/Classes/BXHUD/SVProgressHUD.h; sourceTree = "<group>"; };
 		8BDDE95C4934AA3BA5A3FC61A66CBCFF /* Pods-BXUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BXUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,11 +90,11 @@
 		90948310CFBF4EEFD5596397B0A0B667 /* Pods-BXUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BXUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		95FFA5933E5C494DC3210E4FA3E8E542 /* BXHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BXHUD.h; path = BXUIKit/Classes/BXHUD/BXHUD.h; sourceTree = "<group>"; };
 		9699B9F58CE0268C4D97D536A5F72DF1 /* Pods-BXUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BXUIKit_Tests.modulemap"; sourceTree = "<group>"; };
-		9B5778D2B2451D720C99CC1A5B8254D7 /* BXUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BXUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B5778D2B2451D720C99CC1A5B8254D7 /* BXUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BXUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F108A04C3BEF6C76C315AE6CCE3241B /* Pods-BXUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BXUIKit_Example-dummy.m"; sourceTree = "<group>"; };
 		A5B1E196FAD29CFD0F629D43AC935562 /* BXUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BXUIKit-Info.plist"; sourceTree = "<group>"; };
-		ADD935BC383E03A34D711B35404FA24F /* BXUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BXUIKit.framework; path = BXUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD935BC383E03A34D711B35404FA24F /* BXUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BXUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0CC99B1042EEA43118E3DA0C3749626 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = BXUIKit/Classes/BXHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		B23C42ECFC12A3EA7C8763D975226F26 /* Pods-BXUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BXUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B6A78F4594BF8D5DE1F1EB4766E9E17C /* BXUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BXUIKit-umbrella.h"; sourceTree = "<group>"; };
@@ -102,12 +102,12 @@
 		B9E5CFE1847F8BCFF7F6650F81026DD6 /* BXMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BXMenu.m; path = BXUIKit/Classes/BXMenu/BXMenu.m; sourceTree = "<group>"; };
 		BA6804395AF2D23E6667CDE5191933E5 /* UIButton+BXAddressPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+BXAddressPicker.h"; path = "BXUIKit/Classes/AddressPickerView/UIButton+BXAddressPicker.h"; sourceTree = "<group>"; };
 		BB80E946506F1CB2530DE5DE90993126 /* Pods-BXUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BXUIKit_Example-Info.plist"; sourceTree = "<group>"; };
-		C0CC0F1691332904FC253AD85C7BFC65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C0CC0F1691332904FC253AD85C7BFC65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C7EFDEF981748EFF0BB922963ED04A4C /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = BXUIKit/Classes/BXHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CE5DB4A074D7419458B058CABC3CDD51 /* BXAddressPickerHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BXAddressPickerHeader.h; path = BXUIKit/Classes/AddressPickerView/BXAddressPickerHeader.h; sourceTree = "<group>"; };
 		CF0614DBB790BF7CFEEBB647FD790276 /* BXProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BXProgressHUD.h; path = BXUIKit/Classes/BXHUD/BXProgressHUD.h; sourceTree = "<group>"; };
-		F04DFAC9568F09B9425EE7B9A729F863 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F04DFAC9568F09B9425EE7B9A729F863 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F1F5D99E3083B11FD32D7AE3A0543DF4 /* BXProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BXProgressHUD.m; path = BXUIKit/Classes/BXHUD/BXProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -409,13 +409,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -511,6 +512,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -560,8 +562,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -602,6 +603,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
