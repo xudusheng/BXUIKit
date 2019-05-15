@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 UIKIT_EXTERN NSString * const BXProgressHUDDidReceiveTouchEventNotification;
 UIKIT_EXTERN NSString * const BXProgressHUDDidTouchDownInsideNotification;
 UIKIT_EXTERN NSString * const BXProgressHUDWillDisappearNotification;
@@ -17,8 +19,6 @@ UIKIT_EXTERN NSString * const BXProgressHUDWillAppearNotification;
 UIKIT_EXTERN NSString * const BXProgressHUDDidAppearNotification;
 
 UIKIT_EXTERN NSString * const BXProgressHUDStatusUserInfoKey;
-
-NS_ASSUME_NONNULL_BEGIN
 
 @interface BXHUD : NSObject
 //设置根控制器，用于添加新的toast时移除可能存在的旧HUD，默认[UIApplication sharedApplication].keyWindow.rootViewController
@@ -43,7 +43,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 //MARK: MPProgressHUD
 + (void)showHud:(UIView *)rootView;//显示无文本的HUD
-+ (void)showHud:(UIView *)rootView text:(NSString*)text;//显示HUD
++ (void)showHud:(UIView *)rootView text:(nullable NSString*)text;//显示HUD
 + (void)hideHud:(UIView *)rootView;
 
 //MARK: SVProgressHUD

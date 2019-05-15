@@ -44,6 +44,7 @@ Pod::Spec.new do |s|
     
     s.subspec 'BXPlaceholderTextView' do |textView|
         textView.source_files = 'BXUIKit/Classes/BXPlaceholderTextView/**/*.{h,m}'
+        textView.resource = "Pod/Assets/city.json"
     end
     
 end

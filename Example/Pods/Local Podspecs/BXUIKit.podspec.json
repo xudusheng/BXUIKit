@@ -33,7 +33,8 @@
     },
     {
       "name": "BXPlaceholderTextView",
-      "source_files": "BXUIKit/Classes/BXPlaceholderTextView/**/*.{h,m}"
+      "source_files": "BXUIKit/Classes/BXPlaceholderTextView/**/*.{h,m}",
+      "resources": "Pod/Assets/city.json"
     }
   ]
 }

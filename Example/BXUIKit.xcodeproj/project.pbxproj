@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8FD589E931D32B76B6B63B89 /* Pods_BXUIKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C8152050E95A9997AF5CCE /* Pods_BXUIKit_Example.framework */; };
+		D3DBD234228C5689001D2AB2 /* BXPlaceTextViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DBD233228C5689001D2AB2 /* BXPlaceTextViewVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AC9D914CEBC5F64C4FE9815 /* Pods-BXUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXUIKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-BXUIKit_Tests/Pods-BXUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BD5AA370B432207E4AFE6094 /* Pods-BXUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXUIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-BXUIKit_Example/Pods-BXUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D3DBD232228C5689001D2AB2 /* BXPlaceTextViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXPlaceTextViewVC.h; sourceTree = "<group>"; };
+		D3DBD233228C5689001D2AB2 /* BXPlaceTextViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXPlaceTextViewVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* BXViewController.h */,
 				6003F5A6195388D20070C39A /* BXViewController.m */,
+				D3DBD232228C5689001D2AB2 /* BXPlaceTextViewVC.h */,
+				D3DBD233228C5689001D2AB2 /* BXPlaceTextViewVC.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -370,6 +375,7 @@
 			files = (
 				6003F59E195388D20070C39A /* BXAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* BXViewController.m in Sources */,
+				D3DBD234228C5689001D2AB2 /* BXPlaceTextViewVC.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
