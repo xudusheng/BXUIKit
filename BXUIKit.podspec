@@ -36,19 +36,19 @@ Pod::Spec.new do |s|
     end
     
     s.subspec 'BXHUD' do |a|
-        a.source_files = 'BXToolKit/Classes/BXHUD/*'
+        a.source_files = 'BXToolKit/Classes/BXHUD/*.{h,m}'
     end
     
     s.subspec 'BXMenu' do |a|
-        a.source_files = 'BXToolKit/Classes/BXMenu/*'
+        a.source_files = 'BXToolKit/Classes/BXMenu/*.{h,m}'
     end
     
     s.subspec 'BXPlaceholderTextView' do |a|
-        a.source_files = 'BXToolKit/Classes/BXPlaceholderTextView/*'
+        a.source_files = 'BXToolKit/Classes/BXPlaceholderTextView/*.{h,m}'
     end
     
     s.subspec 'BXPlaceholderTextView' do |a|
-        a.source_files = 'BXToolKit/Classes/BXPlaceholderTextView/*'
+        a.source_files = 'BXToolKit/Classes/BXPlaceholderTextView/*.{h,m}'
     end
     
 end
