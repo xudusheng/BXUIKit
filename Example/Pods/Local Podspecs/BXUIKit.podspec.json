@@ -1,6 +1,6 @@
 {
   "name": "BXUIKit",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of BXUIKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xudusheng/BXUIKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/xudusheng/BXUIKit.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,23 +21,23 @@
   "subspecs": [
     {
       "name": "AddressPickerView",
-      "source_files": "BXToolKit/Classes/AddressPickerView/*"
+      "source_files": "BXToolKit/Classes/AddressPickerView/**/*.{h,m}"
     },
     {
       "name": "BXHUD",
-      "source_files": "BXToolKit/Classes/BXHUD/*"
+      "source_files": "BXToolKit/Classes/BXHUD/**/*.{h,m}"
     },
     {
       "name": "BXMenu",
-      "source_files": "BXToolKit/Classes/BXMenu/*"
+      "source_files": "BXToolKit/Classes/BXMenu/**/*.{h,m}"
     },
     {
       "name": "BXPlaceholderTextView",
-      "source_files": "BXToolKit/Classes/BXPlaceholderTextView/*"
+      "source_files": "BXToolKit/Classes/BXPlaceholderTextView/**/*.{h,m}"
     },
     {
       "name": "BXPlaceholderTextView",
-      "source_files": "BXToolKit/Classes/BXPlaceholderTextView/*"
+      "source_files": "BXToolKit/Classes/BXPlaceholderTextView/**/*.{h,m}"
     }
   ]
 }
