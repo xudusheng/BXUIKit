@@ -33,12 +33,11 @@ Pod::Spec.new do |s|
     
     s.subspec 'AddressPickerView' do |a|
         a.source_files = 'BXUIKit/Classes/AddressPickerView/**/*.{h,m}'
-        a.public_header_files = 'Pod/Classes/AddressPickerView/**/*.h'
     end
     
     s.subspec 'BXHUD' do |hud|
         hud.source_files = 'BXUIKit/Classes/BXHUD/**/*.{h,m}'
-        hud.public_header_files = 'Pod/Classes/BXHUD/**/BXHUD.h'
+        hud.public_header_files = 'Pod/Classes/BXHUD/BXHUD.h'
     end
     
     s.subspec 'BXMenu' do |menu|
