@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
     end
     
     s.subspec 'BXPlaceholderTextView' do |textView|
-        textView.source_files = 'BXToolKit/Classes/BXPlaceholderTextView/**/*.{h,m}'
+        textView.source_files = 'BXUIKit/Classes/BXPlaceholderTextView/**/*.{h,m}'
     end
     
 end
