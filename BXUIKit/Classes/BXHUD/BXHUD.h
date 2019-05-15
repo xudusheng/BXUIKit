@@ -18,6 +18,8 @@ UIKIT_EXTERN NSString * const BXProgressHUDDidAppearNotification;
 
 UIKIT_EXTERN NSString * const BXProgressHUDStatusUserInfoKey;
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface BXHUD : NSObject
 //设置根控制器，用于添加新的toast时移除可能存在的旧HUD，默认[UIApplication sharedApplication].keyWindow.rootViewController
 //仅接收UITabBarController、UINavigationController或者UIViewController类型的对象
@@ -50,3 +52,4 @@ UIKIT_EXTERN NSString * const BXProgressHUDStatusUserInfoKey;
 + (void)showToastFailed:(NSString *)failed;//失败时，1.5秒后消隐
 @end
 
+NS_ASSUME_NONNULL_END
