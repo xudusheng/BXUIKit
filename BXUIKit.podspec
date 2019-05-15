@@ -36,8 +36,7 @@ Pod::Spec.new do |s|
     end
     
     s.subspec 'BXHUD' do |hud|
-        hud.source_files = 'BXUIKit/Classes/BXHUD/**/*.{h,m}'
-    end
+        hud.source_files = 'BXUIKit/Classes/BXHUD/**/*.{h,m}'    end
     
     s.subspec 'BXMenu' do |menu|
         menu.source_files = 'BXUIKit/Classes/BXMenu/**/*.{h,m}'
