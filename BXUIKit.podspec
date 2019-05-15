@@ -32,23 +32,23 @@ Pod::Spec.new do |s|
     
     
     s.subspec 'AddressPickerView' do |a|
-        a.source_files = 'BXToolKit/Classes/AddressPickerView/*'
+        a.source_files = 'BXToolKit/Classes/AddressPickerView/**/*.{h,m}'
     end
     
     s.subspec 'BXHUD' do |a|
-        a.source_files = 'BXToolKit/Classes/BXHUD/*.{h,m}'
+        a.source_files = 'BXToolKit/Classes/BXHUD/**/*.{h,m}'
     end
     
     s.subspec 'BXMenu' do |a|
-        a.source_files = 'BXToolKit/Classes/BXMenu/*.{h,m}'
+        a.source_files = 'BXToolKit/Classes/BXMenu/**/*.{h,m}'
     end
     
     s.subspec 'BXPlaceholderTextView' do |a|
-        a.source_files = 'BXToolKit/Classes/BXPlaceholderTextView/*.{h,m}'
+        a.source_files = 'BXToolKit/Classes/BXPlaceholderTextView/**/*.{h,m}'
     end
     
     s.subspec 'BXPlaceholderTextView' do |a|
-        a.source_files = 'BXToolKit/Classes/BXPlaceholderTextView/*.{h,m}'
+        a.source_files = 'BXToolKit/Classes/BXPlaceholderTextView/**/*.{h,m}'
     end
     
 end
