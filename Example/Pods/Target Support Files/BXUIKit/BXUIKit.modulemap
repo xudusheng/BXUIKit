@@ -1,0 +1,6 @@
+framework module BXUIKit {
+  umbrella header "BXUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

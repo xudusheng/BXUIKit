@@ -1,0 +1,25 @@
+PODS:
+  - BXUIKit (0.1.0):
+    - BXUIKit/AddressPickerView (= 0.1.0)
+    - BXUIKit/BXHUD (= 0.1.0)
+    - BXUIKit/BXMenu (= 0.1.0)
+    - BXUIKit/BXPlaceholderTextView (= 0.1.0)
+    - BXUIKit/BXPlaceholderTextView (= 0.1.0)
+  - BXUIKit/AddressPickerView (0.1.0)
+  - BXUIKit/BXHUD (0.1.0)
+  - BXUIKit/BXMenu (0.1.0)
+  - BXUIKit/BXPlaceholderTextView (0.1.0)
+
+DEPENDENCIES:
+  - BXUIKit (from `../`)
+
+EXTERNAL SOURCES:
+  BXUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BXUIKit: 36dd5f8cd1e19d7ebe8652f09bc4b98208847ce7
+
+PODFILE CHECKSUM: bb27f0cafcc81d71f1cceea76acba408f81fe14e
+
+COCOAPODS: 1.6.1

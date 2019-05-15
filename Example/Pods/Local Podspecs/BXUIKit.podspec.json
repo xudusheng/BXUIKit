@@ -1,0 +1,43 @@
+{
+  "name": "BXUIKit",
+  "version": "0.1.0",
+  "summary": "A short description of BXUIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xudusheng/BXUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xudusheng": "597132100@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/xudusheng/BXUIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "AddressPickerView",
+      "source_files": "BXToolKit/Classes/AddressPickerView/*"
+    },
+    {
+      "name": "BXHUD",
+      "source_files": "BXToolKit/Classes/BXHUD/*"
+    },
+    {
+      "name": "BXMenu",
+      "source_files": "BXToolKit/Classes/BXMenu/*"
+    },
+    {
+      "name": "BXPlaceholderTextView",
+      "source_files": "BXToolKit/Classes/BXPlaceholderTextView/*"
+    },
+    {
+      "name": "BXPlaceholderTextView",
+      "source_files": "BXToolKit/Classes/BXPlaceholderTextView/*"
+    }
+  ]
+}

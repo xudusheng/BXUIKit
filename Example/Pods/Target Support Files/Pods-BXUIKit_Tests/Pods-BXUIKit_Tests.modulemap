@@ -1,0 +1,6 @@
+framework module Pods_BXUIKit_Tests {
+  umbrella header "Pods-BXUIKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
