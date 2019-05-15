@@ -21,19 +21,17 @@
   "subspecs": [
     {
       "name": "AddressPickerView",
-      "source_files": "BXToolKit/Classes/AddressPickerView/**/*.{h,m}"
+      "source_files": "BXUIKit/Classes/AddressPickerView/**/*.{h,m}",
+      "public_header_files": "Pod/Classes/AddressPickerView/**/*.h"
     },
     {
       "name": "BXHUD",
-      "source_files": "BXToolKit/Classes/BXHUD/**/*.{h,m}"
+      "source_files": "BXUIKit/Classes/BXHUD/**/*.{h,m}",
+      "public_header_files": "Pod/Classes/BXHUD/**/BXHUD.h"
     },
     {
       "name": "BXMenu",
-      "source_files": "BXToolKit/Classes/BXMenu/**/*.{h,m}"
-    },
-    {
-      "name": "BXPlaceholderTextView",
-      "source_files": "BXToolKit/Classes/BXPlaceholderTextView/**/*.{h,m}"
+      "source_files": "BXUIKit/Classes/BXMenu/**/*.{h,m}"
     },
     {
       "name": "BXPlaceholderTextView",

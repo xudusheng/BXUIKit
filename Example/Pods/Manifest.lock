@@ -4,7 +4,6 @@ PODS:
     - BXUIKit/BXHUD (= 0.0.1)
     - BXUIKit/BXMenu (= 0.0.1)
     - BXUIKit/BXPlaceholderTextView (= 0.0.1)
-    - BXUIKit/BXPlaceholderTextView (= 0.0.1)
   - BXUIKit/AddressPickerView (0.0.1)
   - BXUIKit/BXHUD (0.0.1)
   - BXUIKit/BXMenu (0.0.1)
@@ -18,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BXUIKit: 3bc950a207aa3a6e192f0c66bef0a815b55d5e71
+  BXUIKit: 610429b127b54276e5cab4e766fa30a9654ce9f4
 
 PODFILE CHECKSUM: bb27f0cafcc81d71f1cceea76acba408f81fe14e
 

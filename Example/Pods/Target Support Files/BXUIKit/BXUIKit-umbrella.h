@@ -21,8 +21,6 @@
 #import "SVProgressHUD.h"
 #import "SVRadialGradientLayer.h"
 #import "BXMenu.h"
-#import "BXPlaceholderTextView.h"
-#import "BXUIKit.h"
 
 FOUNDATION_EXPORT double BXUIKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char BXUIKitVersionString[];
